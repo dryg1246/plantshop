@@ -1,0 +1,59 @@
+.container {
+  margin: 26px 120px;
+
+
+
+  .header {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+
+
+    .logo {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+
+      p{
+        font-weight: 700;
+        color: #46A358;
+      }
+    }
+
+    .nav-list {
+      display: flex;
+      gap: 50px;
+      list-style-type: none;
+      font-weight: 400;
+      .nav-list-home{
+        font-weight: 600;
+      }
+    }
+
+    .login {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      .login-btn {
+        background-color: #46A358;
+        border-radius: 6px;
+        color: #fff;
+        display: flex;
+        border: none;
+        margin: 0;
+        align-items: center;
+        gap: 4px;
+        padding:  0  17px 0px 18px;
+        text-decoration: none;
+        cursor: pointer;
+
+        p{
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
