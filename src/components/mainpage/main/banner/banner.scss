@@ -16,6 +16,7 @@
       column-gap: 7px;
       .banner-left-welcome {
         letter-spacing: 1.4px;
+        margin: 16px 0;
         font-weight: 500;
         line-height: 16px;
         text-transform: uppercase;
@@ -37,6 +38,7 @@
       .banner-left-subtext {
         font-weight: 400;
         font-size: 15px;
+        margin: 15px 0;
         line-height: 24px;
         color: #727272;
       }
@@ -49,7 +51,7 @@
       border: none;
       margin: 0;
       align-items: center;
-      padding: 0 30px;
+      padding: 10px 30px;
       text-decoration: none;
       cursor: pointer;
 
