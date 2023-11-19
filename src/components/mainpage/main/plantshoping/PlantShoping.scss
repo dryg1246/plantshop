@@ -5,11 +5,11 @@
   .plant-shopping-left{
     background: #FBFBFB;
   .plant-shopping-left-sorting {
+    width: 310px;
 
     .plant-shopping-left-sorting-categories {
       font-weight: 700;
       font-size: 18px;
-
       padding: 14px 18px 0;
     }
 
@@ -106,8 +106,7 @@
         justify-content: center;
       }
       .plant-shopping-left-banner-img{
-       opacity: 90%;
-
+        mix-blend-mode: multiply;
       }
     }
   }
@@ -116,7 +115,7 @@
 
     .plant-shopping-right-sorting {
       display: flex;
-      gap: 120px;
+      justify-content: space-between;
       .plant-shopping-right-sorting-categories{
         display: flex;
         padding: 0 50px;
@@ -135,8 +134,9 @@
     }
     .plant-shopping-right-product{
       display: flex;
-      margin: 38px 33px 0 50px;
-
+      margin: 38px 0 0 50px;
+      gap: 33px;
+      flex-wrap: wrap;
       .plant-shopping-right-product-card1{
 
       }

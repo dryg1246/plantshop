@@ -85,38 +85,38 @@ export const PlantShopping = () => {
                         </div>
                     </div>
                     <div className="plant-shopping-right-product">
-                            <Card
-                                imgCard="/img/plant-barberton.png"
-                                imgWidth="250"
-                                imgHeight="250"
-                                imgAlt="barberton"
-                                namePlant="Barberton Daisy"
-                                pricePlant="$119.00"
-                            />
-                    <Card
-                        imgCard="/img/plant-barberton.png"
-                        imgWidth="250"
-                        imgHeight="250"
-                        imgAlt="barberton"
-                        namePlant="Barberton Daisy"
-                        pricePlant="$119.00"
-                    />
-                    <Card
-                        imgCard="/img/plant-barberton.png"
-                        imgWidth="250"
-                        imgHeight="250"
-                        imgAlt="barberton"
-                        namePlant="Barberton Daisy"
-                        pricePlant="$119.00"
-                    />
-                    <Card
-                        imgCard="/img/plant-barberton.png"
-                        imgWidth="250"
-                        imgHeight="250"
-                        imgAlt="barberton"
-                        namePlant="Barberton Daisy"
-                        pricePlant="$119.00"
-                    />
+                        <Card
+                            imgCard="/img/plant-barberton.png"
+                            imgWidth="250"
+                            imgHeight="250"
+                            imgAlt="barberton"
+                            namePlant="Barberton Daisy"
+                            pricePlant="$119.00"
+                        />
+                        <Card
+                            imgCard="/img/plant-angel.png"
+                            imgWidth="250"
+                            imgHeight="250"
+                            imgAlt="Angel"
+                            namePlant="Angel Wing Begonia"
+                            pricePlant="$169.00"
+                        />
+                        <Card
+                            imgCard="/img/plant-african.png"
+                            imgWidth="250"
+                            imgHeight="250"
+                            imgAlt="barberton"
+                            namePlant="African Violet"
+                            pricePlant="$199.00"
+                        />
+                        <Card
+                            imgCard="/img/plant.png"
+                            imgWidth="250"
+                            imgHeight="250"
+                            imgAlt="barberton"
+                            namePlant="Barberton Daisy"
+                            pricePlant="$119.00"
+                        />
                     </div>
                 </div>
             </div>
