@@ -105,7 +105,7 @@ export const PlantShopping = () => {
                             imgCard="/img/plant-african.png"
                             imgWidth="250"
                             imgHeight="250"
-                            imgAlt="barberton"
+                            imgAlt="African"
                             namePlant="African Violet"
                             pricePlant="$199.00"
                         />
@@ -113,10 +113,67 @@ export const PlantShopping = () => {
                             imgCard="/img/plant.png"
                             imgWidth="250"
                             imgHeight="250"
-                            imgAlt="barberton"
-                            namePlant="Barberton Daisy"
-                            pricePlant="$119.00"
+                            imgAlt="Beach Spider "
+                            namePlant="Beach Spider Lily"
+                            pricePlant="$129.00"
                         />
+                        <Card
+                            imgCard="/img/plant-blushing.png"
+                            imgWidth="250"
+                            imgHeight="250"
+                            imgAlt="Blushing"
+                            namePlant="Blushing Bromeliad"
+                            pricePlant="$179.00"
+                        />
+                        <Card
+                            imgCard="/img/plant-aluminium.png"
+                            imgWidth="250"
+                            imgHeight="250"
+                            imgAlt="Aluminum Plant"
+                            namePlant="Aluminum Plant"
+                            pricePlant="$99.00"
+                        />
+                        <Card
+                            imgCard="/img/plant-bird's.png"
+                            imgWidth="250"
+                            imgHeight="250"
+                            imgAlt="Bird's Nest Fern "
+                            namePlant="Bird's Nest Fern"
+                            pricePlant="$179.00"
+                        />
+                        <Card
+                            imgCard="/img/plant-broadleaf.png"
+                            imgWidth="250"
+                            imgHeight="250"
+                            imgAlt="Broadleaf Lady Palm "
+                            namePlant="Broadleaf Lady Palm"
+                            pricePlant="$59.00"
+                        />
+                        <Card
+                            imgCard="/img/plant-chinese.png"
+                            imgWidth="250"
+                            imgHeight="250"
+                            imgAlt="Chinese Evergreen "
+                            namePlant="Chinese Evergreen"
+                            pricePlant="$39.00"
+                        />
+                    </div>
+                    <div className="plant-shopping-right-page">
+                        <button className="plant-shopping-right-page-btnGreen">
+                            <p>1</p>
+                        </button>
+                        <button>
+                            <p>2</p>
+                        </button>
+                        <button>
+                            <p>3</p>
+                        </button>
+                        <button>
+                            <p>4</p>
+                        </button>
+                        <button className="plant-shopping-right-page-btnArrow">
+                            <img src="/img/arrow_right.svg" alt="arrow"/>
+                        </button>
                     </div>
                 </div>
             </div>

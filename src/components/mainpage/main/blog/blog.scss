@@ -1,0 +1,24 @@
+.blog{
+  .blog-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+    h1{
+      color: #3D3D3D;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    p{
+      font-weight: 400;
+      font-size: 14px;
+      color: #727272;
+    }
+  }
+  .blog-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+    margin-bottom: 100px;
+  }
+}
