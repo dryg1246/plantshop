@@ -1,0 +1,137 @@
+.footer {
+  .footer-newsletters {
+    max-width: 1200px;
+    height: 250px;
+    background: #FBFBFB;
+    display: flex;
+    gap: 62px;
+    border-bottom: 1px solid  rgba(70, 163, 88, 0.20);
+    .footer-newsletters-card {
+      border-right: 1px solid  rgba(70, 163, 88, 0.20);
+      h2 {
+        font-size: 17px;
+        color: #3D3D3D;
+        font-weight: 700;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        color: #727272;
+        line-height: 22px;
+      }
+    }
+
+    .footer-card {
+      display: flex;
+      gap: 62px;
+      padding: 25px 0 0 23px;
+    }
+
+    .footer-email {
+      padding: 37px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+
+      p {
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 13px;
+        color: #727272;
+
+      }
+
+      h2 {
+        font-weight: 700;
+        color: #3D3D3D;
+        font-size: 18px;
+      }
+
+      .footer-email-input {
+        input {
+          border-radius: 6px 0 0 0;
+          background: #FFF;
+          border: none;
+          padding: 12px 23px;
+          margin: 0 auto;
+        }
+
+        button {
+          border-radius: 0 6px 6px 0;
+          width: 85px;
+          background: #46A358;
+          border: none;
+          padding: 10px 23px;
+
+          p {
+            font-weight: 700;
+            color: #FFF;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  .footer-mainInformation{
+    max-width: 1200px;
+    background: #FBFBFB;
+    border-bottom: 1px solid  rgba(70, 163, 88, 0.20);
+    .link{
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      h2{
+        color: #3D3D3D;
+        font-weight: 700;
+        font-size: 18px;
+      }
+      .link2{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        a{
+          font-weight: 400;
+          font-size: 14px;
+          color: #3D3D3D
+        }
+      }
+    }
+    .footer-mainInformation-link{
+      display: flex;
+      gap: 167px;
+      padding: 33px 23px;
+    }
+    .footer-mainInformation-media{
+      display: flex;
+      flex-direction: column;
+      gap: 33px;
+      .footer-mainInformation-media-social{
+        h2{
+          font-size: 18px;
+          font-weight: 700;
+          padding-bottom: 20px;
+        }
+        .footer-mainInformation-media-social-img{
+          display: flex;
+          gap: 10px;
+        }
+      }
+    }
+    .footer-mainInformation-media-pay{
+      h2{
+        font-size: 18px;
+        font-weight: 700;
+        padding-bottom: 13px;
+      }
+      img{
+        mix-blend-mode: multiply;
+      }
+    }
+  }
+  .all-rights{
+    padding: 7px 0 13px 0;
+    display: flex;
+    justify-content: center;
+  }
+}

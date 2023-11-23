@@ -5,6 +5,7 @@ import {Banner} from "./components/mainpage/main/banner/banner";
 import {PlantShopping} from "./components/mainpage/main/plantshoping/PlantShopping";
 import {Reference} from "./components/mainpage/main/reference_plant/Reference";
 import {Blog} from "./components/mainpage/main/blog/blog";
+import {Footer} from "./components/mainpage/footer/Footer";
 
 export const App = () => {
     return (
@@ -14,6 +15,7 @@ export const App = () => {
             <PlantShopping />
             <Reference />
             <Blog />
+            <Footer />
         </div>
     )
 }
