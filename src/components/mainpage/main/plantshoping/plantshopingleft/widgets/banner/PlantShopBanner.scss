@@ -1,0 +1,25 @@
+.plant-shopping-left-banner {
+  background: linear-gradient(180deg, rgba(70, 163, 88, 0.10) 0%, rgba(70, 163, 88, 0.03) 100%);
+
+
+  .plant-shopping-left-banner-text {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 65px;
+    padding: 20px 0 0 16px;
+    color: #46A358;
+  }
+
+
+  .plant-shopping-left-banner-subtext {
+    color: #3D3D3D;
+    font-size: 23px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+  }
+
+  .plant-shopping-left-banner-img {
+    mix-blend-mode: multiply;
+  }
+}

@@ -11,7 +11,6 @@ export const Card = ({imgCard, imgWidth, imgHeight, imgAlt, namePlant, pricePlan
                 <p>{namePlant}</p>
                 <b>{pricePlant}</b>
             </div>
-
         </div>
     )
 }

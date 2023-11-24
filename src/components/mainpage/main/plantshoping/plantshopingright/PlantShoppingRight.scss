@@ -1,0 +1,23 @@
+.plant-shopping-right {
+
+  .plant-shopping-right-sorting {
+    display: flex;
+    justify-content: space-between;
+
+    .plant-shopping-right-sorting-img {
+      display: flex;
+      gap: 8px;
+    }
+  }
+
+  .plant-shopping-right-product {
+    display: flex;
+    margin: 38px 0 0 50px;
+    gap: 33px;
+    flex-wrap: wrap;
+
+    .plant-shopping-right-product-card1 {
+
+    }
+  }
+}

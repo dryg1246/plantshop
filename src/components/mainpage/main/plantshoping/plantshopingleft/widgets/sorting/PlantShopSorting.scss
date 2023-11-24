@@ -1,0 +1,39 @@
+.plant-shopping-left-sorting {
+
+  .plant-shopping-left-sorting-categories {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 14px 18px 0;
+  }
+
+  .plant-shopping-left-price-dollar-green {
+    list-style-type: none;
+    color: #46A358;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 30px;
+
+    p {
+    }
+  }
+
+  .plant-shopping-left-sorting-item {
+    text-decoration: none;
+    display: flex;
+    margin: 16px 30px;
+    justify-content: space-between;
+    align-items: center;
+    color: #3D3D3D;
+
+    a {
+      text-decoration: none;
+      color: #3D3D3D;
+    }
+
+    p {
+      text-decoration: none;
+    }
+  }
+}

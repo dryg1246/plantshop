@@ -1,0 +1,31 @@
+.plant-shopping-right-page{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin: 90px 0 146px 0;
+
+  .plant-shopping-right-page-btnArrow{
+    padding: 9px 8px;
+  }
+  .plant-shopping-right-page-btnGreen{
+    background: #46A358;
+    p{
+      color: #FFFFFF;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+  button{
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    p{
+
+      color: #3D3D3D;
+      font-size: 18px;
+      font-weight: 300;
+    }
+  }
+}

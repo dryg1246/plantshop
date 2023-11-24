@@ -1,0 +1,37 @@
+.plant-shopping-left-price {
+  .plant-shopping-left-price-text {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 14px 18px 0;
+  }
+
+  .plant-shopping-left-price-dollar {
+    margin: 0 30px;
+
+    .plant-shopping-left-price-dollar-green {
+      color: #46A358;
+    }
+  }
+
+  .plant-shopping-left-price-range {
+    margin: 16px 30px;
+  }
+
+  .plant-shopping-left-price-filter {
+    background-color: #46A358;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    border: none;
+    align-items: center;
+    margin: 16px 30px;
+    padding: 8px 26px 7px 27px;
+    text-decoration: none;
+    cursor: pointer;
+
+    p {
+      font-weight: 700;
+      font-size: 18px;
+    }
+  }
+}
